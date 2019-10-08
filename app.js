@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello World! Version 3. Latest 3 !!!');
+  res.send('Hello World! Version 4. Latest 4 !!!');
 });
 
 app.listen(config.port, () => {
